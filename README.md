@@ -125,15 +125,5 @@ Model şu metriklerle değerlendirilir:
 - Desteklenen görüntü boyutu: 224x224 piksel
 - Model, farklı sayıda sınıf için yapılandırılabilir
 
-## ⚠️ Önemli Uyarı
 
-Bu proje eğitim amaçlıdır ve gerçek tıbbi teşhis için kullanılmamalıdır. Tıbbi kararlar için mutlaka uzman doktorlara danışılmalıdır.
-
-## 📄 Lisans
-
-Bu proje eğitim amaçlıdır.
-
----
-
-**Not**: Bu proje eğitim amaçlıdır ve gerçek tıbbi teşhis için kullanılmamalıdır.
 
