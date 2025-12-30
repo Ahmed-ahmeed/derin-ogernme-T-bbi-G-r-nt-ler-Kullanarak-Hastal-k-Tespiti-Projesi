@@ -14,11 +14,27 @@ Göğüs röntgen görüntülerini dört kategoriye sınıflandırmak:
 
 ## 🏗️ Mimari
 
-Proje özel bir CNN modeli kullanmaktadır:
-- Batch Normalization ile 8 Evrişimli Katman
-- 4 MaxPooling Katmanı
-- 3 Tam Bağlı Katman
-- Overfitting'i azaltmak için Dropout katmanları
+Proje farklı derin öğrenme mimarileri kullanmaktadır. Her ekip üyesi farklı bir model üzerinde çalışmıştır:
+
+### Kullanılan Modeller:
+
+1. **Özel CNN Modeli** (Ahmed Ahmed)
+   - Batch Normalization ile 8 Evrişimli Katman
+   - 4 MaxPooling Katmanı
+   - 3 Tam Bağlı Katman
+   - Overfitting'i azaltmak için Dropout katmanları
+
+2. **DenseNet121** (Ahmed Elsayed)
+   - Transfer Learning ile önceden eğitilmiş DenseNet121 modeli
+   - Yoğun bağlantılı bloklar ile özellik çıkarımı
+
+3. **VGG16** (Dirar Ahmed)
+   - Transfer Learning ile önceden eğitilmiş VGG16 modeli
+   - Derin evrişimli katmanlar ile özellik öğrenme
+
+4. **ResNet18** (Muhammed Absi)
+   - Transfer Learning ile önceden eğitilmiş ResNet18 modeli
+   - Artık bağlantılar (Residual Connections) ile derin ağ eğitimi
 
 ## 📁 Proje Yapısı
 
@@ -113,10 +129,12 @@ Model şu metriklerle değerlendirilir:
 
 ## 👥 Katkıda Bulunanlar
 
-- Ahmed Ahmed (22040301122)
-- Ahmed Elsayed (22040301142)
-- Ahmet (22040301174)
-- Dirar Ahmed (22040301123)
+Her ekip üyesi farklı bir derin öğrenme modeli üzerinde çalışmıştır:
+
+- **Ahmed Ahmed** (22040301122) - Özel CNN Modeli
+- **Ahmed Elsayed** (22040301142) - DenseNet121
+- **Dirar Ahmed** (22040301123) - VGG16
+- **Muhammed Absi** (22040301174) - ResNet18
 
 ## 📝 Notlar
 
@@ -124,6 +142,3 @@ Model şu metriklerle değerlendirilir:
 - Veriler sınıflara göre klasörlerde organize edilmelidir
 - Desteklenen görüntü boyutu: 224x224 piksel
 - Model, farklı sayıda sınıf için yapılandırılabilir
-
-
-
